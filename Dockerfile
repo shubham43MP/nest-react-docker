@@ -7,8 +7,10 @@ COPY ./lerna.json .
 COPY ./yarn.lock .
 COPY ./.env .
 
+COPY ./packages/server/package.json ./packages/server/package.json
+
 RUN yarn install
 
-ADD ./packages/server/package.json ./packages/server/package.json
+COPY ./packages/server ./packages/server
 
 CMD ["yarn", "workspace", "server", "start:dev"]

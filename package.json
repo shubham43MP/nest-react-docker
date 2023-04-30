@@ -15,13 +15,14 @@
   "workspaces": [
     "packages/*"
   ],
-  "version":"1.0.0",
+  "version": "1.0.0",
   "scripts": {
     "test": "lerna run test",
-    "diff":"lerna diff",
-    "clean":"lerna clean"
+    "diff": "lerna diff",
+    "clean": "lerna clean"
   },
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "lerna": "^6.5.1",
+    "@nestjs/cli": "^9.0.0"
   }
 }

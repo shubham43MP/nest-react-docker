@@ -37,10 +37,10 @@
     "pino-http": "^8.3.3",
     "pino-pretty": "^10.0.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "@nestjs/cli": "^9.0.0"
   },
   "devDependencies": {
-    "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/swagger": "^6.3.0",
     "@nestjs/testing": "^9.0.0",
