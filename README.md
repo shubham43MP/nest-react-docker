@@ -86,12 +86,6 @@ This will bring up the react development server at localhost:3000
 - When we login with correct credentials, a table dashboard will come up. We can create, update and view the bid items here
 - If the token is invalid or expired, the application will get logged out and you need to login again
 
-## What could have been done if test task would have provided more time?
-
-- UI/UX Improvement keeping color theory in mind
-- Some sort of centralised logging in Frontend
-- Deposit flow requirement was not very clear so just included a basic UI for that
-
 ## Techstack used :
 
 - React
